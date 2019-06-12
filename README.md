@@ -2,7 +2,7 @@
 
 Code for a game using Google Apps Script that tracks users interactions on sheets, forms, and with a Google Hangouts Chat bot. The code tallies interactions for each user in a sheet, where formulas apply points depending on the interaction.
 
-If you want to inspire a little extra engagement to your Google Apps projects (for things like gathering feedback form submissions or testing out your chat bot's responses) though gamification, here a way to do it!
+If you want to encourage a little extra engagement to your Google Apps projects (for things like gathering feedback form submissions or testing out your chat bot's responses) though gamification, here a way to do it!
 
 ## Setup
 
@@ -25,7 +25,7 @@ To calculate the score, you can use a spreadsheet formula to add and multiply st
 
 Here's an example of a scoreboard that I've used for this:
 
-![](Scoreboard.png)
+ ![](Scoreboard.PNG)
 
 ### Place the code
 
