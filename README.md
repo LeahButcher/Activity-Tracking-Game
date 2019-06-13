@@ -38,3 +38,9 @@ For tracking sheet edits and chat bot messages, paste in the **OnEdit Tracking.j
 You'll need to replace the placeholder text with your score sheet's ID and sheet names.
 
 You'll also need to replace the column numbers to line up with the way your score sheet is formatted.
+
+## Events
+
+Want to inspire a little extra interaction? Both tracking types include Event Toggles for custom, time limited events. 
+
+For example, if you want to push participants to do a specific thing, you can have an event in which you score bonus points for doing that for a limited amount of time.
