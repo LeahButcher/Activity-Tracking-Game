@@ -1,6 +1,6 @@
 # Activity Tracking Game
 
-Code for a game using Google Apps Script that tracks users interactions on sheets, forms, and with a Google Hangouts Chat bot. The code tallies interactions for each user in a sheet, where formulas apply points depending on the interaction.
+Simple code for a game using Google Apps Script that tracks users interactions on sheets, forms, and with a Google Hangouts Chat bot. The code tallies interactions for each user in a sheet, where formulas apply points depending on the interaction.
 
 If you want to encourage a little extra engagement to your Google Apps projects (for things like gathering feedback form submissions or testing out your chat bot's responses) though gamification, here a way to do it!
 
