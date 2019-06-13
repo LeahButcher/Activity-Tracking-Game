@@ -5,6 +5,9 @@ var pointChart = alphaGame.getSheetByName(/*PointSheetName*/);
 var lastAGRow = scoreSheet.getLastRow();
 var currentRow;
 
+// ||||| EVENT TOGGLE ||||| //
+var eventTime = "NO"; 
+
 // Get max tallies allowed
 var maxAllowed = pointChart.getRange(6, 4).getValue(); 
 
@@ -29,6 +32,11 @@ for (var at = 0; at < userList.length; at++){
     if (counterList[at][0] < maxAllowed){
       var currentCount = scoreSheet.getRange(currentRow, counterColumn).getValue();
       scoreSheet.getRange(currentRow, counterColumn).setValue(currentCount + 1);
+      // Add event tally if event is active
+      if (eventTime == "YES"){
+        var currentEventCount = scoreSheet.getRange(currentRow, eventColumn).getValue();
+        scoreSheet.getRange(currentRow, eventColumn).setValue(currentEventCount + 1);
+      }
       break;
     }
     else {
